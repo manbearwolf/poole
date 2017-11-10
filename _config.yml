@@ -4,9 +4,9 @@ permalink:           pretty
 # Setup
 title:               Poole
 tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+url:                 "https://manbearwolf.github.io/"
 paginate:            1
-baseurl:             ""
+baseurl:             "/poole"
 
 # Assets
 #
@@ -22,11 +22,13 @@ author:
   email:             markdotto@gmail.com
 
 # Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
+# version:             2.0.0
+# github:
+#  repo:              
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
+
+
