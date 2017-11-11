@@ -1,5 +1,13 @@
 # Poole
 
+
+<b>11-10-17 [Google Page Speed](https://developers.google.com/speed/pagespeed/)</b><br />
+100/100 mobile 100/100 desktop<br />
+Fixed up Render Blocking CSS.<br />
+https://manbearwolf.github.io/poole/
+
+
+
 *The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
 
 -----
