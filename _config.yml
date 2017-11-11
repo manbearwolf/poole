@@ -38,10 +38,10 @@ paginate: 1
 paginate_path: '/blog/page:num/'
 plugins: 
   - jekyll-paginate
-  - jekyll-typogrify
+  # - jekyll-typogrify
   # - jekyll-sitemap
   # - jekyll-seo-tag
-  # - jekyll-gist
+  - jekyll-gist
   # - jemoji
 
 
