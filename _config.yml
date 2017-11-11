@@ -5,7 +5,7 @@ permalink:           pretty
 title:               Poole
 tagline:             The Jekyll Butler
 url:                 "https://manbearwolf.github.io/"
-# baseurl:             "/poole2_site"
+# 'baseurl:             "/poole2_site"
 baseurl:             "/poole"
 
 # Assets
