@@ -5,6 +5,7 @@ permalink:           pretty
 title:               Poole
 tagline:             The Jekyll Butler
 url:                 "https://manbearwolf.github.io/"
+#baseurl:             "/poole2_site"
 baseurl:             "/poole"
 
 # Assets
@@ -36,7 +37,8 @@ disqus:
 # http://jekyllrb.com/docs/pagination/
 paginate: 1
 paginate_path: '/blog/page:num/'
-# paginate_path: '/blog/page:num/'
+
+
 plugins: 
   - jekyll-paginate
   - jekyll-typogrify
@@ -47,19 +49,33 @@ plugins:
 
 
 markdown: kramdown
+highlighter: rouge
+
+
 kramdown:
     auto_ids: true
+    input:          GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+    syntax_highlighter: rouge
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+    syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+
+
 
 #compress.html
-# compress_html:
-#   clippings: []
-#   comments: []
-#   endings: []
-#   ignore:
-#     envs: []
-#   blanklines: false
-#   profile: false
-#   startings: []
+#compress_html:
+
 
 # gist:
 #   noscript: false
