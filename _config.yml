@@ -5,7 +5,6 @@ permalink:           pretty
 title:               Poole
 tagline:             The Jekyll Butler
 url:                 "https://manbearwolf.github.io/"
-paginate:            1
 baseurl:             "/poole"
 
 # Assets
@@ -17,18 +16,51 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Matthew Bott
+  url:               
+  email:            
 
 # Custom vars
 # version:             2.0.0
 # github:
 #  repo:              
 
-# Gems
-plugins:
+
+
+
+JEKYLL_ENV: development
+
+# The shortname for your Disqus site to enable comments.
+disqus: 
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 1
+paginate_path: '/blog/page:num/'
+plugins: 
   - jekyll-paginate
+  - jekyll-typogrify
+  - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-gist
+  - jemoji
 
 
+markdown: kramdown
+kramdown:
+    auto_ids: true
+
+#compress.html
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+# gist:
+#   noscript: false
+
+analytics_id:
