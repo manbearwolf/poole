@@ -27,3 +27,58 @@
 @import "posts";
 @import "pagination";
 @import "message";
+
+
+
+
+
+
+
+table.dota {
+    word-wrap: break-word;
+    border-color: #eeeeee;
+    border-style: dashed;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    display: table;
+    border-bottom: 1px;
+    border-bottom: dashed;
+    border-bottom-color: #eeeeee;
+  
+    // padding: 1px;
+    // border-spacing: 1px;
+  }
+  td.dota {
+    border-color: #eeeeee;
+    border-style: dashed;
+    text-align: center;
+    vertical-align: top;
+    border-top: dashed;
+    border-top-color: #eeeeee;
+    empty-cells: hide;
+  }
+  td.dota img {
+    height: auto;
+    width: 100%;
+  }
+  div.dota {
+    background-color: white;
+    border-color: #eeeeee;
+    border-style: dashed;
+    padding: 10px;
+    word-wrap: break-word;
+  }
+  
+  h2:target {
+    animation: highlight 1s ease;
+  }
+  @keyframes highlight {
+    from {
+        background: #22b3eb;
+    }
+    to {
+        background: white;
+    }
+  }
+  
