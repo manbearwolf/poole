@@ -1,4 +1,12 @@
+<!-- https://github.com/penibelst/jekyll-compress-html/issues/71 -->
+
 {% if _code contains '<pre class="lineno">' %}
     {% assign _code = _code | replace: "<pre><code", "<code" %}
     {% assign _code = _code | replace: "</code></pre>", "</code>" %}
 {% endif %}
+
+<!-- https://nooshu.github.io/blog/2016/08/07/accelerated-mobile-pages/ -->
+<!-- { % if _code contains '<pre class="lineno">' % }
+    { % assign _code = _code | replace: '<table style="border-spacing: 0">', '<table>' % }
+    { % assign _code = _code | replace: '<td class="gutter gl" style="text-align: right">', '<td class="gutter gl">' % }
+{ % endif % } -->

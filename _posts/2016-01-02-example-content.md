@@ -71,7 +71,7 @@ You may also optionally show code snippets with line numbers. Add `linenos` to t
 
 
 
-{% capture _code %}{% highlight js linenos %}
+{% capture _code %}{% highlight js linenos=table %}
 // Example can be run directly in your JavaScript console
 
 // Create a function that takes two arguments and returns the sum of those arguments
